@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<producto id="123" xsi:noNamespaceShemaLocation="TareaDesafioXSD.xsd" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    ESTE ES PRODUCTO DE LA CAMPAÑA LA FAVORITA
+    <codigo>1235</codigo>
+    <nombre>DETERGENTE-FAB</nombre>
+    <descripcion>
+        <color>AZUL</color>
+        <peso>14gramos</peso>
+        <fecha_ingreso>2018-11-16</fecha_ingreso>
+    </descripcion>
+    <cantidad>33</cantidad>
+    <proveedor>VERMONTIA</proveedor>
+    <tipo>LIM</tipo>
+    <tipo2>dLp</tipo2>
+</producto>

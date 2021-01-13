@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+<!--INFORMACION DEL PATRO DE DISEÑO-->
+    <xsd:annotation>
+        <xsd:documentation>
+            SCHEMA SALAMI SLICE
+        </xsd:documentation>
+    </xsd:annotation>
+     <!--TODOS LOS ELEMENTOS SON GLOBALES-->
+    <xsd:element name="producto">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="codigo" type="xsd:integer"></xsd:element>
+                <xsd:element name="nombre" type="xsd:string"></xsd:element>
+                <xsd:element name="descripcion">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="color" type="xsd:string"/>
+                            <xsd:element name="peso" type="xsd:string"/>
+                            <xsd:element name="fecha_ingreso" type="xsd:date"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="cantidad" type="xsd:integer"></xsd:element>
+                <xsd:element name="proveedor" type="xsd:string"></xsd:element>
+                <xsd:element name="tipo" type="xsd:string"></xsd:element>
+                <xsd:element name="tipo2" type="xsd:string"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>    
+    </xsd:element>
+</xs:schema>
